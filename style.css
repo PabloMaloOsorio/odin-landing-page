@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Start Section 1*/ 
+#section-1 {
+    background-color: #1F2937;
+}
+
+#section-1 div {
+    color: white;
+}
+
+.main-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-1-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-1-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.link-1 {
+    padding-right: 20px;
+}
+
+.link-2 {
+    padding-right: 20px;
+}
+
+.main-1-content .first-p {
+    font-size: 48px;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+.main-1-content .second-p {
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+
+.main-1-content .third-p {
+    margin-top: -5px;
+    margin-bottom: 0;
+}
+
+.main-1-content .fourth-p {
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.main-1-content .fifth-p {
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.main-1-content button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 7px;
+    border-width: 0;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 700;
+}
+
+.main-1-content .second-block {
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    padding-right: 120px;
+    padding-left: 120px;
+    margin-right: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*End Section 1*/ 
+
+
+/*Start Section 2*/
+.main-2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -50px;
+}
+
+.upper-part {
+    display: flex;
+    justify-content: center;
+}
+.upper-part p {
+    padding-top: 15px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.lower-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 160px 270px;
+}
+
+.lower-part .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: -150px;
+}
+
+.container .box {
+    background: rgb(24, 125, 219);
+    border-width: 5px; 
+    color: transparent;
+    border-radius: 10px;
+}
+
+.container .box .inner-box {
+    background: white;
+    padding-top: 130px;    
+    margin: 3.5px;
+    border-radius: 7px;
+}
+
+#section-2 .paragraphs .first-p {
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+
+#section-2 .paragraphs .second-p {
+    margin-bottom: -15px;
+}
+/*End Section 2*/
+
+
+/*Start Section 3*/
+#section-3 {
+    background-color: #E5E7E8;
+}
+
+.main-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 65px;
+}
+#section-3 .p-1 {
+    font-size: 36px;
+    margin-bottom: -35px;
+    font-style: light italic;
+}
+
+#section-3 .p-2 {
+    font-size: 36px;
+    margin-bottom: -35px;
+    font-style: light italic;
+}
+
+#section-3 .p-3 {
+    font-size: 36px;
+    margin-bottom: -35px;
+    font-style: light italic;
+}
+
+#section-3 .p-4 {
+    font-size: 36px;
+    margin-bottom: 0px;
+    font-style: light italic;
+}
+
+#section-3 .p-5 {
+    font-size: 25px;
+    padding-right: 0;
+    padding-left: 540px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+/*End Section 3*/
+
+
+/*Start Section 4*/
+.main-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    background-color: #3882F6;
+    color: white;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    padding-right: 120px;
+}
+
+#section-4 .first-paragraph {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#section-4 .second-paragraph {
+    margin-top: -20px;
+    margin-right: 200px;
+}
+
+#section-4 button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 7px;
+    border-width: 2.5px;
+    border-color: white;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 25px;
+   
+    font-weight: 700;
+}
+
+/*End Section 4*/
+
+/*Start footer*/
+#footer {
+    background-color: #1F2937;;
+}
+
+#footer p {
+    color: white;
+    padding-left: 540px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/*End Footer*/
